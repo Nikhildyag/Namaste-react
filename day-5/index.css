@@ -1,0 +1,161 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.nav-items > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items > ul:hover {
+  cursor: pointer;
+}
+
+.time-stars {
+  display: flex;
+  align-items: center;
+}
+
+.time-stars > h4 {
+  margin: 3px;
+}
+
+.nav-items > ul > li {
+  margin: 15px;
+  list-style-type: none;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: none;
+  color: black;
+}
+
+.underline:hover {
+  color: rgb(232, 156, 14);
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.res-container {
+  width: 200px;
+  border-radius: 10px;
+  margin: 15px 5px;
+}
+
+.res-container:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-logo {
+  width: 100%;
+  height: 150px;
+}
+
+.res-card-details {
+  margin: 10px;
+}
+
+.resCard-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filterButton:hover {
+  cursor: pointer;
+}
+
+.body {
+  width: 80%;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  margin: 0% 15%;
+}
+
+.appLayout {
+  font-family: sans-serif;
+}
+
+.shimmer {
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+  margin: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  margin: 0% 15%;
+}
+
+.login {
+  cursor: pointer;
+  margin: 20px;
+  width: 65px;
+}
+
+.buttons {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.menu-items > ul > li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.veg-logo {
+  width: 20px;
+}
+
+.menu-img {
+  width: 150px;
+}
+
+.menu-card {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #f0f0f0;
+  height: 100px;
+}
+
+.contents > ul > li {
+  list-style-type: none;
+  /* padding: 5px;
+  margin: 5px; */
+  margin: 5px 0px;
+}
+
+.width {
+  width: 50%;
+  font-weight: lighter;
+}
+
+.user-card {
+  border: 1px solid black;
+}
